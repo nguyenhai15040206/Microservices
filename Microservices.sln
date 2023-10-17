@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HSystem.APIGateway", "HSystem.APIGateway\HSystem.APIGateway.csproj", "{500F7FAC-15D4-4424-B302-60B08C0A8A70}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{500F7FAC-15D4-4424-B302-60B08C0A8A70}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{500F7FAC-15D4-4424-B302-60B08C0A8A70}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{500F7FAC-15D4-4424-B302-60B08C0A8A70}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{500F7FAC-15D4-4424-B302-60B08C0A8A70}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {44CE10F5-5DBA-4486-BC47-4EFE09861537}
+	EndGlobalSection
+EndGlobal

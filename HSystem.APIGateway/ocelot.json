@@ -1,0 +1,72 @@
+{
+  "Routes": [
+    // HSystem.API
+    {
+      "SwaggerKey": "HSystem",
+      "UpstreamPathTemplate": "/api/Config/{action}",
+      "DownstreamPathTemplate": "/api/Config/{action}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8095
+        }
+      ]
+    },
+    {
+      "SwaggerKey": "HSystem",
+      "UpstreamPathTemplate": "/api/Account/",
+      "DownstreamPathTemplate": "/api/Account/{Action}",
+      "UpstreamHttpMethod": [ "Get", "Post", "Put", "Delete" ],
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 8095
+        }
+      ]
+    }
+    //DAT API Service ... General here
+
+  ],
+  "SwaggerEndPoints": [
+    // Swagger UI
+    {
+      "Key": "HSystem",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "HSystem.API",
+          "Version": "v1",
+          "Url": "http://localhost:8095/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "TVT",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "C1.API",
+          "Version": "v1",
+          "Url": "http://localhost:8095/swagger/v1/swagger.json"
+        }
+      ]
+    },
+    {
+      "Key": "DAT",
+      "TransformByOcelotConfig": false,
+      "Config": [
+        {
+          "Name": "V1.API",
+          "Version": "v1",
+          "Url": "http://localhost:8095/swagger/v1/swagger.json"
+        }
+      ]
+    }
+  ],
+  "GlobalConfiguration": {
+    "BaseUrl": "http://localhost:8095"
+  }
+}
